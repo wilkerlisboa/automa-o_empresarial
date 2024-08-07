@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+	<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+	<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/> 
 </p>
 
 <h1 align="center">Automação Empresarial: Desenvolvimento de uma Solução para Calcular a Média de Chegada de Produtos Utilizando Node.js, JavaScript e Excel</h1>
@@ -67,7 +68,9 @@ Caso não tenha instalador segue os links abaixo com todas as orientações que 
 	
 Após realizar todas as instalações abra o diretorio a onde ira realizar a execução do código,  nesse caso foi criado um diretorio produtos dentro desse diretorio foi criado o arquivo `gerar_produtos.js` será a onde vamos colocar o código anterior dentro dele
 
-imagem
+![image](https://github.com/user-attachments/assets/a4fbc2ed-1386-429e-83c7-e1dd4d8e1609)
+
+
 
 Agora instalar as dependências do como a xlsx moment execute o comando a baixo para isso
 
@@ -77,7 +80,8 @@ Após isso abra o terminal seja ele widowns ou link e execute o comando
 
 		gerar_produtos.js
 
-image
+![image](https://github.com/user-attachments/assets/d1e007ca-d7f9-4433-a569-479239517861)
+
 
 assim fica seu diretorio padão um arquivo de javascript e um arquivo de excel chamado de `chegada_produtos.xlsx`, agora finalizamos a primeira etapa, podemos ir para segunda etapa desse trabalho.
 
@@ -226,8 +230,7 @@ O código abaixo lê o arquivo `chegada_produtos.xlsx`, calcula as médias de ch
 
 	// Executar a função para calcular a média de chegada dos produtos
 	calcularMediaChegada();
-### Imagem do Código
-
+ 
 ### Descrição do Código
 
 1.  **Leitura do Arquivo Excel**: Lê os dados do arquivo `chegada_produtos.xlsx`.
@@ -237,20 +240,17 @@ O código abaixo lê o arquivo `chegada_produtos.xlsx`, calcula as médias de ch
 5.  **Geração do Arquivo Excel com Médias**: Cria um novo arquivo Excel chamado `media_chegada_produtos.xlsx` contendo as médias calculadas.
 
 ### Exemplo de Dados de Médias no Excel
+![image](https://github.com/user-attachments/assets/c5fcab9f-f1b2-488e-9bde-5ea0817931b8)
 
-<h2>Como Usar</h2>
 
-1. **Execute o código para gerar o arquivo com dados de produtos**:
+### Execução
+para iniciar o projeto digite o comando abaixo para gerar o relatario do fluxo de chegada de produtos
 
-		node gerar_produtos.js
-2. **Execute o código para calcular as médias e gerar o arquivo de médias**:
+	node calcular_medias.js
 
-		node calcular_medias.js
-
-3.  **Verifique os arquivos gerados**:
+ **Verifique os arquivos gerados**:
     
-    -   `chegada_produtos.xlsx`: Contém os dados de chegada dos produtos.
-    -   `media_chegada_produtos.xlsx`: Contém as médias calculadas para cada período (ano, mês, semana, dia e hora).
+	`media_chegada_produtos.xlsx`: Contém as médias calculadas para cada período (ano, mês, semana, dia e hora).
 
 <h2>Autor 🤝</h2>
 
