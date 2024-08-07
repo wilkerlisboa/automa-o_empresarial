@@ -251,6 +251,20 @@ O código abaixo lê o arquivo `chegada_produtos.xlsx`, calcula as médias de ch
     
     -   `chegada_produtos.xlsx`: Contém os dados de chegada dos produtos.
     -   `media_chegada_produtos.xlsx`: Contém as médias calculadas para cada período (ano, mês, semana, dia e hora).
-    
-<h2>Autor</h2>
+
+<h2>Autor 🤝</h2>
+
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/73085812" width="100px;" alt="Foto do wilker lisboa no  github"/><br>
+        <sub>
+          <b>Wilker Lisboa</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
