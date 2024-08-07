@@ -168,7 +168,7 @@ Função para Calcular a Média de Chegada dos Produtos
 - `data = xlsx.utils.sheet_to_json(sheet):` Converte a planilha em um array de objetos JSON.
 - `data.forEach(...):` Itera sobre cada linha da planilha.
 
-Atualização dos Objetos de Armazenamento por Intervalo de Tempo.
+Atualização dos Objetos de Armazenamento por Intervalo de Tempo.<br></br>
 Para cada intervalo de tempo (ano, mês, semana, dia e hora), os seguintes passos são realizados:
 
 	// Para média por ano
