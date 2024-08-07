@@ -94,7 +94,7 @@ Caso ainda não tenha instalado, seguem os links abaixo com todas as orientaçõ
 
 		https://code.visualstudio.com/
 	
-Após realizar todas as instalações, abra o diretório onde você irá executar o código. Neste caso, foi criado um diretório chamado `produtos`. Dentro desse diretório, foi criado o arquivo `gerar_produtos.js`. É nesse arquivo que você deve colocar o código anterior.
+Após realizar todas as instalações, abra o diretório onde você irá executar o código. Neste caso, foi criado um diretório chamado `produtos`. Dentro desse diretório, foi criado o arquivo `gerar_produtos.js`. É nesse arquivo que você deve colocar o código da etapa anterior "1. Geração do Arquivo Excel com Dados de Produtos"
 
 
 
@@ -109,7 +109,7 @@ Para instalar as dependências necessárias, como  `xlsx` e ` moment`, execute o
 
 Após isso, abra o terminal (seja no Windows ou no Linux) e execute o comando:
 
-		gerar_produtos.js
+		node gerar_produtos.js
 
 ![image](https://github.com/user-attachments/assets/d1e007ca-d7f9-4433-a569-479239517861)
 
@@ -168,7 +168,7 @@ Função para Calcular a Média de Chegada dos Produtos
 - `data = xlsx.utils.sheet_to_json(sheet):` Converte a planilha em um array de objetos JSON.
 - `data.forEach(...):` Itera sobre cada linha da planilha.
 
-Atualização dos Objetos de Armazenamento por Intervalo de Tempo
+Atualização dos Objetos de Armazenamento por Intervalo de Tempo.
 Para cada intervalo de tempo (ano, mês, semana, dia e hora), os seguintes passos são realizados:
 
 	// Para média por ano
