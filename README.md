@@ -111,11 +111,11 @@ Após isso, abra o terminal (seja no Windows ou no Linux) e execute o comando:
 
 		node gerar_produtos.js
 
+Assim, seu diretório padrão conterá um arquivo JavaScript e um arquivo Excel chamado `chegada_produtos.xlsx`.
+
 ![image](https://github.com/user-attachments/assets/d1e007ca-d7f9-4433-a569-479239517861)
 
-
-Assim, seu diretório padrão conterá um arquivo JavaScript e um arquivo Excel chamado `chegada_produtos.xlsx`. Agora, finalizamos a primeira etapa e podemos prosseguir para a segunda etapa deste trabalho.
-
+ Agora, finalizamos a primeira etapa e podemos prosseguir para a segunda etapa deste artigo.
 <h2>2. Análise e Cálculo das Médias dos Dados</h2>
 
 ### Código JavaScript
