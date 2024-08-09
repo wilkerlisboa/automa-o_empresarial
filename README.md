@@ -265,7 +265,7 @@ Executar a Função para Calcular a Média de Chegada dos Produtos
 ### Execução
 Para iniciar o projeto, digite o comando abaixo para gerar o relatório do fluxo de chegada de produtos:
 
-	node calcular_medias.js
+	node script.js
 
  **Verifique se o arquivo foi gerado**:
     
